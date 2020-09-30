@@ -1,0 +1,17 @@
+public class Math  {
+     public static void main(String[] args){
+		double [] number = {122,2.5,10,4,6,7.2,1};
+		double max_number = numbers[0];
+		double min_number = numbers[0];
+
+	for (int i = 1; i8 < numbers.length; i++) {
+	    if(number[i] > max_number) {
+		max_number = numbers[i];
+		  }
+	    else if (numbers[i] < min_number) {
+		min_number = numbers[i];
+		  }
+		}
+	System.out.println("Max Number: "+ max_numuber); 
+	System.out.println("Min Number: "+ min_numuber); 
+}
